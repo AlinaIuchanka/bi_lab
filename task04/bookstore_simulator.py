@@ -1,4 +1,4 @@
-class Bookstore:
+class Bookstore(object):
     visitors_count = 0
 
     def __init__(self, visitor_name, discount):
