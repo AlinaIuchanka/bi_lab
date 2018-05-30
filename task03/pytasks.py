@@ -32,17 +32,14 @@ def fizzbuzz():
 
 
 def __is_happy(number):
-    flag = True
     res = number
     res_list = []
-    while flag:
+    while res != 1 and res not in res_list[: -1]:
         number_str = str(res)
         res = 0
         for i in number_str:
             res += int(i) ** 2
-        if res == 1 or res in res_list:
-            flag = False
-        else:
+        if res not in res_list:
             res_list.append(res)
     return res == 1
 
