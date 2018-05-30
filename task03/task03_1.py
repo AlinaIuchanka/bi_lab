@@ -10,7 +10,7 @@ print(list2)
 
 # Use a list comprehension to construct
 # the list ['1a', '2a', '3a', '4a'].
-list3 = [str(i) + 'a' for i in range(1, 5)] 
+list3 = [str(i) + 'a' for i in range(1, 5)]
 print(list3)
 
 # Simultaneously remove the element '2a'
