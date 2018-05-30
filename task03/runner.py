@@ -27,7 +27,7 @@ def runner(*args):
             argument = func_name[left_bracket + 1:-1]
             func_call = func_name[: left_bracket]
             if func_call in arg_def:
-                if argument != "":
+                if argument:
                     print(func_call, getattr(pytasks, func_call)(argument))
                 else:
                     print(func_call, getattr(pytasks, func_call)())
