@@ -1,8 +1,8 @@
 # 1
 def divide_zero():
     try:
-        print(5/0)
-    except ZeroDivisionError as error:
+        print(5 / 0)
+    except ZeroDivisionError:
         print("Error: division by zero")
 
 

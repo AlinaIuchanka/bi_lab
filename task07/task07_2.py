@@ -16,7 +16,7 @@ parser.add_argument('--all',
                     action='store_true')
 
 parser.add_argument('--histogram',
-                    help='Displays histogram for rating or for years (in text format)')
+                    help='Displays histogram for rating or for years')
 
 parser.add_argument('--output',
                     help='Stores data to specified filename file')
